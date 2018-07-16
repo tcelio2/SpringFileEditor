@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<entity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns="http://www.softwaremining.com/schemas/SM-DataBeans-2-3"
+        xsi:schemaLocation="http://www.softwaremining.com/schemas/SM-DataBeans-2-3
+        http://www.softwaremining.com/schemas/SM-DataBeans-2-3.xsd">
+  <original-file>fii5x081</original-file>
+  <organization>sequentialnio</organization>
+  <sm-record-size>4898</sm-record-size>
+  <minimum-record-length>1</minimum-record-length>
+  <record-length-depends-on>ws_fileot2_rec_size</record-length-depends-on>
+  <assigned-file-name>fileot2</assigned-file-name>
+  <assigned-file-names>
+    <file-name>fileot2</file-name>
+  </assigned-file-names>
+  <persistent>true</persistent>
+  <package-name>com.att.inv1.persistence</package-name>
+  <class-name>Fileot2</class-name>
+  <original-name>FILEOT2</original-name>
+  <class-usage-info>standard</class-usage-info>
+  <class-usage-stats writes="0" reads="3"/>
+  <field-list>
+    <field name="o2RecordBytes" field-type="String">
+      <field-name>o2RecordBytes</field-name>
+      <original-name>O2_RECORD_BYTES</original-name>
+      <original-format>X</original-format>
+      <usage-info>unreferenced</usage-info>
+      <usage-stats writes="0" reads="0"/>
+      <array-size>4898</array-size>
+      <field-size display="1" storage="4898">1</field-size>
+    </field>
+  </field-list>
+  <group-list>
+    <group name="o2Record">
+      <group-name>o2Record</group-name>
+      <original-name>O2_RECORD</original-name>
+      <group-usage-info>standard</group-usage-info>
+      <group-usage-stats writes="1" reads="0"/>
+      <field-size display="4898" storage="4898">4898</field-size>
+      <field>o2RecordBytes</field>
+    </group>
+  </group-list>
+</entity>

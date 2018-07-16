@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<entity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns="http://www.softwaremining.com/schemas/SM-DataBeans-2-3"
+        xsi:schemaLocation="http://www.softwaremining.com/schemas/SM-DataBeans-2-3
+        http://www.softwaremining.com/schemas/SM-DataBeans-2-3.xsd">
+  <original-file>fii2ai01</original-file>
+  <organization>sequentialnio</organization>
+  <sm-record-size>15996</sm-record-size>
+  <minimum-record-length>1</minimum-record-length>
+  <record-length-depends-on>fiip0088_var_length</record-length-depends-on>
+  <assigned-file-name>ut_s_fiip0088</assigned-file-name>
+  <assigned-file-names>
+    <file-name>ut_s_fiip0088</file-name>
+  </assigned-file-names>
+  <persistent>true</persistent>
+  <package-name>com.att.inv1.persistence</package-name>
+  <class-name>Fiip0088</class-name>
+  <original-name>FIIP0088</original-name>
+  <class-usage-info>readonly</class-usage-info>
+  <class-usage-stats writes="0" reads="3"/>
+  <field-list>
+    <field name="fiip0088VarData" field-type="String">
+      <field-name>fiip0088VarData</field-name>
+      <original-name>FIIP0088_VAR_DATA</original-name>
+      <original-format>X</original-format>
+      <usage-stats writes="0" reads="0"/>
+      <array-size>15996</array-size>
+      <field-size display="1" storage="15996">1</field-size>
+    </field>
+  </field-list>
+  <group-list>
+    <group name="fiip0088Record">
+      <group-name>fiip0088Record</group-name>
+      <original-name>FIIP0088_RECORD</original-name>
+      <group-usage-stats writes="0" reads="1"/>
+      <field-size display="15996" storage="15996">15996</field-size>
+      <field>fiip0088VarData</field>
+    </group>
+  </group-list>
+</entity>

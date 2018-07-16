@@ -1,0 +1,50 @@
+#fileName{
+	margin-left: 153px;
+	margin-top: 20px;
+}
+
+#filter{
+	font-size: 20px;
+	
+}
+
+.dropLarge{
+	width: 80%;
+	margin: 2%;
+}
+
+.caret{
+	position: absolute;
+	left: 148px;
+	top: 20px;
+}
+
+#input{
+	margin-top: 4px;
+	width: 580px;
+	height: 35px;
+}
+
+#records{
+	font-size: 18px;
+	margin-left: 12px;
+}
+
+#filterList{
+	overflow-y: scroll;
+	height: 500px;
+	overflow-x: hidden;
+	margin-bottom: 15px;	
+}
+
+#proceed{
+	float:right;
+	margin-bottom: 15px;
+	margin-right: 45px;
+	width: 200px;	
+	 	  
+}
+
+.row{
+	margin-top: 10px;
+}

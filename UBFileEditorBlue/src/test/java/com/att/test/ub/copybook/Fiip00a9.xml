@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<entity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns="http://www.softwaremining.com/schemas/SM-DataBeans-2-3"
+        xsi:schemaLocation="http://www.softwaremining.com/schemas/SM-DataBeans-2-3
+        http://www.softwaremining.com/schemas/SM-DataBeans-2-3.xsd">
+  <original-file>fii2ai01</original-file>
+  <organization>sequentialnio</organization>
+  <sm-record-size>18</sm-record-size>
+  <assigned-file-name>ut_s_fiip00a9</assigned-file-name>
+  <assigned-file-names>
+    <file-name>ut_s_fiip00a9</file-name>
+  </assigned-file-names>
+  <persistent>true</persistent>
+  <package-name>com.att.inv1.persistence</package-name>
+  <class-name>Fiip00a9</class-name>
+  <original-name>FIIP00A9</original-name>
+  <class-usage-info>container</class-usage-info>
+  <class-usage-stats writes="0" reads="3"/>
+  <field-list>
+    <field name="fiip00a9Record" field-type="String">
+      <field-name>fiip00a9Record</field-name>
+      <original-name>FIIP00A9_RECORD</original-name>
+      <original-format>X(18)</original-format>
+      <usage-info>container</usage-info>
+      <usage-stats writes="0" reads="1"/>
+      <field-size display="18" storage="18">18</field-size>
+    </field>
+  </field-list>
+  <group-list>
+    <group name="root">
+      <group-name>root</group-name>
+      <original-name>root</original-name>
+      <group-usage-info>primitive</group-usage-info>
+      <group-usage-stats writes="0" reads="3"/>
+      <field-size display="18" storage="18">18</field-size>
+      <field>fiip00a9Record</field>
+    </group>
+  </group-list>
+</entity>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<entity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns="http://www.softwaremining.com/schemas/SM-DataBeans-2-3"
+        xsi:schemaLocation="http://www.softwaremining.com/schemas/SM-DataBeans-2-3
+        http://www.softwaremining.com/schemas/SM-DataBeans-2-3.xsd">
+  <original-file>ip1cl12</original-file>
+  <organization>sequentialnio</organization>
+  <sm-record-size>133</sm-record-size>
+  <assigned-file-name>ipflog</assigned-file-name>
+  <assigned-file-names>
+    <file-name>ipflog</file-name>
+  </assigned-file-names>
+  <persistent>true</persistent>
+  <package-name>com.att.inv1.persistence</package-name>
+  <class-name>LogFile</class-name>
+  <original-name>LOG_FILE</original-name>
+  <class-usage-info>container</class-usage-info>
+  <class-usage-stats writes="1" reads="2"/>
+  <field-list>
+    <field name="logRec" field-type="String">
+      <field-name>logRec</field-name>
+      <original-name>LOG_REC</original-name>
+      <original-format>X(133)</original-format>
+      <usage-info>container</usage-info>
+      <usage-stats writes="0" reads="0"/>
+      <field-size display="133" storage="133">133</field-size>
+    </field>
+  </field-list>
+  <group-list>
+    <group name="root">
+      <group-name>root</group-name>
+      <original-name>root</original-name>
+      <group-usage-info>primitive</group-usage-info>
+      <group-usage-stats writes="1" reads="2"/>
+      <field-size display="133" storage="133">133</field-size>
+      <field>logRec</field>
+    </group>
+  </group-list>
+</entity>

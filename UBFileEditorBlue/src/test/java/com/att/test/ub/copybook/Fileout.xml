@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<entity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns="http://www.softwaremining.com/schemas/SM-DataBeans-2-3"
+        xsi:schemaLocation="http://www.softwaremining.com/schemas/SM-DataBeans-2-3
+        http://www.softwaremining.com/schemas/SM-DataBeans-2-3.xsd">
+  <original-file>fii5x719</original-file>
+  <organization>sequentialnio</organization>
+  <sm-record-size>15996</sm-record-size>
+  <minimum-record-length>1</minimum-record-length>
+  <record-length-depends-on>w_fileout_rec_size</record-length-depends-on>
+  <assigned-file-name>fileout</assigned-file-name>
+  <assigned-file-names>
+    <file-name>fileout</file-name>
+  </assigned-file-names>
+  <persistent>true</persistent>
+  <package-name>com.att.inv1.persistence</package-name>
+  <class-name>Fileout</class-name>
+  <original-name>FILEOUT</original-name>
+  <class-usage-info>standard</class-usage-info>
+  <class-usage-stats writes="0" reads="5"/>
+  <field-list>
+    <field name="fdFileoutBytes" field-type="String">
+      <field-name>fdFileoutBytes</field-name>
+      <original-name>FD_FILEOUT_BYTES</original-name>
+      <original-format>X</original-format>
+      <usage-info>unreferenced</usage-info>
+      <usage-stats writes="0" reads="0"/>
+      <array-size>15996</array-size>
+      <field-size display="1" storage="15996">1</field-size>
+    </field>
+  </field-list>
+  <group-list>
+    <group name="fileoutReg">
+      <group-name>fileoutReg</group-name>
+      <original-name>FILEOUT_REG</original-name>
+      <group-usage-info>standard</group-usage-info>
+      <group-usage-stats writes="3" reads="0"/>
+      <field-size display="15996" storage="15996">15996</field-size>
+      <field>fdFileoutBytes</field>
+    </group>
+  </group-list>
+</entity>

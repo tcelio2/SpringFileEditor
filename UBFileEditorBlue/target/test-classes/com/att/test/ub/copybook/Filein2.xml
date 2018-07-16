@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<entity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns="http://www.softwaremining.com/schemas/SM-DataBeans-2-3"
+        xsi:schemaLocation="http://www.softwaremining.com/schemas/SM-DataBeans-2-3
+        http://www.softwaremining.com/schemas/SM-DataBeans-2-3.xsd">
+  <original-file>fii5x081</original-file>
+  <organization>indexed</organization>
+  <sm-record-size>267</sm-record-size>
+  <assigned-file-name>filein2</assigned-file-name>
+  <assigned-file-names>
+    <file-name>filein2</file-name>
+  </assigned-file-names>
+  <sm-table-name>FILEIN2</sm-table-name>
+  <persistent>true</persistent>
+  <package-name>com.att.inv1.persistence</package-name>
+  <class-name>Filein2</class-name>
+  <original-name>FILEIN2</original-name>
+  <class-usage-info>container</class-usage-info>
+  <class-usage-stats writes="0" reads="3"/>
+  <field-list>
+    <field name="filein2Key" field-type="String">
+      <field-name>filein2Key</field-name>
+      <original-name>FILEIN2_KEY</original-name>
+      <original-format>X(33)</original-format>
+      <usage-info>container</usage-info>
+      <needs-field-getter>true</needs-field-getter>
+      <usage-stats writes="1" reads="0"/>
+      <field-size display="33" storage="33">33</field-size>
+    </field>
+    <field name="filler_1" field-type="String">
+      <field-name>filler_1</field-name>
+      <is-filler>true</is-filler>
+      <original-name>FILLER_1</original-name>
+      <original-format>X(234)</original-format>
+      <usage-info>unreferenced</usage-info>
+      <usage-stats writes="0" reads="0"/>
+      <field-size display="234" storage="234">234</field-size>
+    </field>
+  </field-list>
+  <index-list>
+    <index name="ixFilein2Key">
+      <index-name>ixFilein2Key</index-name>
+      <hyphenated-name>IX_FILEIN2_KEY</hyphenated-name>
+      <non-numeric-name>IX_FILEIN2_KEY</non-numeric-name>
+      <original-name>FILEIN2_KEY</original-name>
+      <group-usage-info>container</group-usage-info>
+      <needs-field-getter>true</needs-field-getter>
+      <group-usage-stats writes="1" reads="0"/>
+      <field-size display="33" storage="33">33</field-size>
+      <field>filein2Key</field>
+      <unique>true</unique>
+      <primary>true</primary>
+    </index>
+  </index-list>
+  <group-list>
+    <group name="filein2Record">
+      <group-name>filein2Record</group-name>
+      <original-name>FILEIN2_RECORD</original-name>
+      <group-usage-info>container</group-usage-info>
+      <group-usage-stats writes="0" reads="0"/>
+      <field-size display="267" storage="267">267</field-size>
+      <field>filein2Key</field>
+      <field>filler_1</field>
+    </group>
+  </group-list>
+</entity>

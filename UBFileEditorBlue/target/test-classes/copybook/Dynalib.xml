@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<entity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns="http://www.softwaremining.com/schemas/SM-DataBeans-2-3"
+        xsi:schemaLocation="http://www.softwaremining.com/schemas/SM-DataBeans-2-3
+        http://www.softwaremining.com/schemas/SM-DataBeans-2-3.xsd">
+  <original-file>ffw4b800</original-file>
+  <organization>sequentialnio</organization>
+  <sm-record-size>80</sm-record-size>
+  <assigned-file-name>ut_s_dynalib</assigned-file-name>
+  <assigned-file-names>
+    <file-name>ut_s_dynalib</file-name>
+  </assigned-file-names>
+  <persistent>true</persistent>
+  <package-name>com.att.inv1.persistence</package-name>
+  <class-name>Dynalib</class-name>
+  <original-name>DYNALIB</original-name>
+  <class-usage-info>container</class-usage-info>
+  <class-usage-stats writes="0" reads="2"/>
+  <field-list>
+    <field name="dynalibRec" field-type="String">
+      <field-name>dynalibRec</field-name>
+      <original-name>DYNALIB_REC</original-name>
+      <original-format>X(80)</original-format>
+      <usage-info>unreferenced</usage-info>
+      <usage-stats writes="0" reads="0"/>
+      <field-size display="80" storage="80">80</field-size>
+    </field>
+  </field-list>
+  <group-list>
+    <group name="root">
+      <group-name>root</group-name>
+      <original-name>root</original-name>
+      <group-usage-info>unreferenced</group-usage-info>
+      <group-usage-stats writes="0" reads="2"/>
+      <field-size display="80" storage="80">80</field-size>
+      <field>dynalibRec</field>
+    </group>
+  </group-list>
+</entity>

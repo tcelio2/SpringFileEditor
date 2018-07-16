@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<entity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns="http://www.softwaremining.com/schemas/SM-DataBeans-2-3"
+        xsi:schemaLocation="http://www.softwaremining.com/schemas/SM-DataBeans-2-3
+        http://www.softwaremining.com/schemas/SM-DataBeans-2-3.xsd">
+  <original-file>fii2di06</original-file>
+  <organization>sequentialnio</organization>
+  <sm-record-size>15996</sm-record-size>
+  <minimum-record-length>1</minimum-record-length>
+  <record-length-depends-on>fiip0210_var_length</record-length-depends-on>
+  <assigned-file-name>ut_s_fiip0210</assigned-file-name>
+  <assigned-file-names>
+    <file-name>ut_s_fiip0210</file-name>
+  </assigned-file-names>
+  <persistent>true</persistent>
+  <package-name>com.att.inv1.persistence</package-name>
+  <class-name>Fiip0210</class-name>
+  <original-name>FIIP0210</original-name>
+  <class-usage-info>standard</class-usage-info>
+  <class-usage-stats writes="0" reads="7"/>
+  <field-list>
+    <field name="fiip0210VarData" field-type="String">
+      <field-name>fiip0210VarData</field-name>
+      <original-name>FIIP0210_VAR_DATA</original-name>
+      <original-format>X</original-format>
+      <usage-info>unreferenced</usage-info>
+      <usage-stats writes="0" reads="0"/>
+      <array-size>15996</array-size>
+      <field-size display="1" storage="15996">1</field-size>
+    </field>
+  </field-list>
+  <group-list>
+    <group name="fiip0210Record">
+      <group-name>fiip0210Record</group-name>
+      <original-name>FIIP0210_RECORD</original-name>
+      <group-usage-info>standard</group-usage-info>
+      <group-usage-stats writes="5" reads="0"/>
+      <field-size display="15996" storage="15996">15996</field-size>
+      <field>fiip0210VarData</field>
+    </group>
+  </group-list>
+</entity>

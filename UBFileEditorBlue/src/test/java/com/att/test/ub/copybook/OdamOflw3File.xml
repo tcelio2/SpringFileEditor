@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<entity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns="http://www.softwaremining.com/schemas/SM-DataBeans-2-3"
+        xsi:schemaLocation="http://www.softwaremining.com/schemas/SM-DataBeans-2-3
+        http://www.softwaremining.com/schemas/SM-DataBeans-2-3.xsd">
+  <original-file>ffw4b407</original-file>
+  <organization>relative</organization>
+  <sm-record-size>32000</sm-record-size>
+  <assigned-file-name>damofl03</assigned-file-name>
+  <assigned-file-names>
+    <file-name>damofl03</file-name>
+  </assigned-file-names>
+  <persistent>true</persistent>
+  <package-name>com.att.inv1.persistence</package-name>
+  <class-name>OdamOflw3File</class-name>
+  <original-name>ODAM_OFLW3_FILE</original-name>
+  <class-usage-info>readonly</class-usage-info>
+  <class-usage-stats writes="0" reads="11"/>
+  <field-list>
+    <field name="oflw3Char" field-type="String">
+      <field-name>oflw3Char</field-name>
+      <original-name>OFLW3_CHAR</original-name>
+      <original-format>X</original-format>
+      <usage-stats writes="0" reads="0"/>
+      <array-size>32000</array-size>
+      <field-size display="1" storage="32000">1</field-size>
+    </field>
+  </field-list>
+  <group-list>
+    <group name="odamOflw3Rec">
+      <group-name>odamOflw3Rec</group-name>
+      <original-name>ODAM_OFLW3_REC</original-name>
+      <group-usage-stats writes="0" reads="0"/>
+      <field-size display="32000" storage="32000">32000</field-size>
+      <sub-group>oflw3Data</sub-group>
+    </group>
+    <group name="oflw3Data">
+      <group-name>oflw3Data</group-name>
+      <original-name>OFLW3_DATA</original-name>
+      <group-usage-stats writes="2" reads="3"/>
+      <field-size display="32000" storage="32000">32000</field-size>
+      <field>oflw3Char</field>
+    </group>
+  </group-list>
+</entity>

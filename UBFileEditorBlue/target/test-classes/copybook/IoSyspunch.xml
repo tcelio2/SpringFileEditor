@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<entity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns="http://www.softwaremining.com/schemas/SM-DataBeans-2-3"
+        xsi:schemaLocation="http://www.softwaremining.com/schemas/SM-DataBeans-2-3
+        http://www.softwaremining.com/schemas/SM-DataBeans-2-3.xsd">
+  <original-file>tailor</original-file>
+  <organization>sequentialnio</organization>
+  <sm-record-size>80</sm-record-size>
+  <assigned-file-name>da_s_syspunch</assigned-file-name>
+  <assigned-file-names>
+    <file-name>da_s_syspunch</file-name>
+  </assigned-file-names>
+  <persistent>true</persistent>
+  <package-name>com.att.inv1.persistence</package-name>
+  <class-name>IoSyspunch</class-name>
+  <original-name>IO_SYSPUNCH</original-name>
+  <class-usage-info>container</class-usage-info>
+  <class-usage-stats writes="0" reads="3"/>
+  <field-list>
+    <field name="ioSyspunchRec" field-type="String">
+      <field-name>ioSyspunchRec</field-name>
+      <original-name>IO_SYSPUNCH_REC</original-name>
+      <original-format>X(80)</original-format>
+      <usage-info needs-formatting="true">container</usage-info>
+      <usage-stats writes="1" reads="83"/>
+      <field-size display="80" storage="80">80</field-size>
+    </field>
+  </field-list>
+  <group-list>
+    <group name="root">
+      <group-name>root</group-name>
+      <original-name>root</original-name>
+      <group-usage-info>container</group-usage-info>
+      <group-usage-stats writes="0" reads="3"/>
+      <field-size display="80" storage="80">80</field-size>
+      <field>ioSyspunchRec</field>
+    </group>
+  </group-list>
+</entity>
